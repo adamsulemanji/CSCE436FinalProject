@@ -1,9 +1,7 @@
-# discord-ui-clone
-Discord UI Clone in HTML
+# CSCE 436 Final Project
 
-> Help me to improve this!!! 😊
+SAT
 
-# Preview
-**[https://archaeopteryx1.github.io/discord-ui-clone/](https://archaeopteryx1.github.io/discord-ui-clone/)**
-
-![img](https://i.imgur.com/1wB32B0.png)
+Adam Sulemanji
+Sona Shah
+Tristan Nigos
