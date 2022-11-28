@@ -141,6 +141,19 @@ body {
     overflow-y: auto;
 }
 
+.container {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    position: relative;
+    float:right;
+    width: 80%;
+    height: 100vh;
+    background-color: #37393F;
+}
+
+
 .navGuildItems {
     display: flex;
     justify-content: space-between;
@@ -233,4 +246,16 @@ body {
 
 .icon-strikethrough {
     fill: var(--red);
+}
+
+.chatBox {
+    position: absolute;
+    bottom: 0;
+    width: 917px;
+    height: 44px;
+    left: 45px;
+    top: 0px;
+    margin-bottom: 0;
+    display: flex;
+    background: #40444B;
 }
