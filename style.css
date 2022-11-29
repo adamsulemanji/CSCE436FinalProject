@@ -141,7 +141,7 @@ body {
 }
 
 .container {
-    grid-column: 4 / span 3;
+    grid-column: 4 / span 2;
     position: relative;
     float:right;
     width: 80%;
@@ -153,9 +153,9 @@ body {
 .chatBox {
     position: absolute;
     bottom: 0px;
-    width: 700px;
+    width: 550px;
     height: 44px;
-    left: 45px;
+    left: 0px;
     display: flex;
     background: #40444B;
 }
@@ -164,6 +164,15 @@ body {
     padding-left: 20px;
 }
 
+.thread {
+    grid-column: 5 / span 1;
+    position: absolute;
+    width: 272px;
+    height: 100vh;
+    left: 998px;
+
+    background: #2E3036;
+}
 
 .navGuildItems {
     display: flex;
