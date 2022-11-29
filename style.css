@@ -160,6 +160,20 @@ body {
     background: #40444B;
 }
 
+/* style the form to match the style of the chat box */
+.chatBox input {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background: #40444B;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
 .chatText {
     padding-left: 20px;
 }
