@@ -241,6 +241,24 @@ body {
     padding-left: 20px;
 }
 
+.threadButton {
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 2%;
+    height: 32px;
+}
+
+.threadButton button {
+    background: none;
+    color: var(--blurple);
+    border: none;
+    padding: 0;
+    margin-left: 0;
+    cursor: pointer;
+    outline: inherit;
+    font-size: 24px;
+}
+
 .threadContainer {
     grid-column: 4;
     background: #2e3036;

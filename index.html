@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Discord UI Clone</title>
         <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
         <script src="script.js" defer></script>
     </head>
 
@@ -228,38 +232,15 @@
                 </div>
             </div>
             <div class="threadContainer">
+                <div class="threadButton">
+                    <button id="exit" onclick="exitdiv()">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </div>
                 <div class="threadTitle">
-                    <h4 class="guildSelectorName">Thread</h4>
+                    <h4 class="guildSelectorName" id="threadThread">Thread</h4>
                 </div>
-                <div class="threadMessages">
-                    <!-- <div class="message" id="message1">
-                        <div class="server">
-                            <img
-                                class="servericon"
-                                src="https://cdn.discordapp.com/embed/avatars/2.png"
-                            />
-                        </div>
-                        <div class="content">
-                            <div class="nameDate">
-                                <div class="name">
-                                    <p>Tristan Nigos</p>
-                                </div>
-                                <div class="date">
-                                    <p>Today at 5:04pm</p>
-                                </div>
-                            </div>
-                            <div class="text">
-                                <p>
-                                    Has anyone thought much yet about the temperature queries HW?
-                                    It's not clear how we can do the performQuery function since we
-                                    need to iterate through the linkedList and It seems we need
-                                    access to the head Node, but that is private in LinkedList and
-                                    we're not supposed to use getHead()?
-                                </p>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
+                <div class="threadMessages"></div>
                 <div class="chatBox">
                     <input type="text" class="threadText" placeholder="message #general" />
                 </div>

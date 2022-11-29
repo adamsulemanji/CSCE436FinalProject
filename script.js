@@ -166,6 +166,30 @@ var html3 = `
 </div>
 </div>
 
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Try adding -Wall, -Wextra, and -Weffc++.
+        </p>
+    </div>
+</div>
+</div>
+
 `;
 
 var html4 = `
@@ -213,5 +237,16 @@ function togglediv(id) {
         case 4:
             div.innerHTML = html4;
     }
+
+    var div2 = document.getElementById("exit");
+    div2.style.display = "inline-block";
     // div.style.display = div.style.display == "none" ? "block" : "none";
+}
+
+function exitdiv() {
+    var div = document.getElementsByClassName("threadMessages")[0];
+    div.innerHTML = ``;
+
+    var div2 = document.getElementById("exit");
+    div2.style.display = "none";
 }
