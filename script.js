@@ -74,3 +74,144 @@ headphoneToggle.addEventListener("click", () => {
     if (headphoneToggle.innerHTML.includes(`class="undeafen"`)) headphoneToggle.innerHTML = UNDEAF;
     else headphoneToggle.innerHTML = DEAF;
 });
+
+var htmlWrapper1 = document.querySelector("#messagebutton1");
+var htmlWrapper2 = document.querySelector("#messagebutton2");
+var htmlWrapper3 = document.querySelector("#messagebutton3");
+var htmlWrapper4 = document.querySelector("#messagebutton4");
+
+var test = document.querySelector(".threadMessages");
+
+var html1 = `<div class="message" id="message1"> <div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Has anyone thought much yet about the temperature queries HW?
+            It's not clear how we can do the performQuery function since we
+            need to iterate through the linkedList and It seems we need
+            access to the head Node, but that is private in LinkedList and
+            we're not supposed to use getHead()?
+        </p>
+    </div>
+</div>
+</div>`;
+
+var html2 = `
+<div class="message" id="message2">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            How are you supposed to throw and catch the exceptions in
+            the User and Post constructors of Hello CPPeers? I tried
+            looking at the reference for invalid_argument but it
+            confused me more.
+        </p>
+    </div>
+</div>
+</div>
+`;
+
+var html3 = `
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            What flags do we need to compile with for the warnings
+            requirement? I tried using the flags from a previous
+            assignment and it throws warnings about the struct having
+            pointers which were there in the starter files.
+        </p>
+    </div>
+</div>
+</div>
+
+`;
+
+var html4 = `
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Is anyone else's copy constructor being weird? As I work on
+            my other functions the test for that keeps alternating
+            between passing/failing even though I'm not editing it at
+            all.
+        </p>
+    </div>
+</div>
+</div>
+`;
+
+function togglediv(id) {
+    console.log("here");
+    var div = document.getElementsByClassName("threadMessages")[0];
+    switch (id) {
+        case 1:
+            div.innerHTML = html1;
+            break;
+        case 2:
+            div.innerHTML = html2;
+            break;
+        case 3:
+            div.innerHTML = html3;
+            break;
+        case 4:
+            div.innerHTML = html4;
+    }
+    // div.style.display = div.style.display == "none" ? "block" : "none";
+}
