@@ -160,6 +160,10 @@ body {
     background: #40444B;
 }
 
+.chatText {
+    padding-left: 20px;
+}
+
 
 .navGuildItems {
     display: flex;
