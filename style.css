@@ -172,6 +172,8 @@ body {
     left: 998px;
 
     background: #2E3036;
+    display: flex;
+    justify-content: center;
 }
 
 .navGuildItems {
