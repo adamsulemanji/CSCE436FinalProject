@@ -24,7 +24,7 @@ body {
 
 .rootDiv {
     display: grid;
-    grid-template-columns: 70px 240px auto 300px;
+    grid-template-columns: 70px 240px auto 400px;
     grid-template-rows: auto;
 }
 
@@ -157,7 +157,7 @@ body {
 }
 
 .chatMessages {
-    padding: 25px;
+    padding: 20px;
     display: block;
 }
 
@@ -192,6 +192,12 @@ body {
 
 .date p {
     font-size: small;
+}
+
+.threadMessages {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 .view button {
