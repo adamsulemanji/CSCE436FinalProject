@@ -107,7 +107,37 @@ var html1 = `<div class="message" id="message1"> <div class="server">
         </p>
     </div>
 </div>
-</div>`;
+</div>
+
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Haven't been able to look into it much, but I would ask
+            your instructor or a TA on how to think that function through.
+        </p>
+    </div>
+    <div class="reactions">
+        <button id="messagebutton2">✅ &nbsp; 1</button>
+    </div>
+</div>
+</div>
+
+`;
 
 var html2 = `
 <div class="message" id="message2">
@@ -135,6 +165,33 @@ var html2 = `
         </p>
     </div>
 </div>
+</div>
+
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            Put a string inside the throw parameter, like throw std::invalid_argument("string of error");
+
+        </p>
+    </div>
+    <div class="reactions">
+        <button id="messagebutton2">✅ &nbsp; 4</button>
+    </div>
 </div>
 `;
 
@@ -187,6 +244,9 @@ var html3 = `
             Try adding -Wall, -Wextra, and -Weffc++.
         </p>
     </div>
+    <div class="reactions">
+        <button id="messagebutton2">✅ &nbsp; 6</button>
+    </div>
 </div>
 </div>
 
@@ -216,6 +276,35 @@ var html4 = `
             between passing/failing even though I'm not editing it at
             all.
         </p>
+    </div>
+</div>
+</div>
+
+<div class="message" id="message1">
+<div class="server">
+    <img
+        class="servericon"
+        src="https://cdn.discordapp.com/embed/avatars/2.png"
+    />
+</div>
+<div class="content">
+    <div class="nameDate">
+        <div class="name">
+            <p>Tristan Nigos</p>
+        </div>
+        <div class="date">
+            <p>Today at 5:04pm</p>
+        </div>
+    </div>
+    <div class="text">
+        <p>
+            The possible reason for that is you are creating a shallow copy of the 
+            data instead of a deep copy. Make sure you correctly allocate each of the elements
+            from one object to your current object.
+        </p>
+    </div>
+    <div class="reactions">
+        <button id="messagebutton2">✅ &nbsp; 3</button>
     </div>
 </div>
 </div>

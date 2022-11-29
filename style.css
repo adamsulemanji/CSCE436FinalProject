@@ -212,6 +212,25 @@ body {
     outline: inherit;
 }
 
+.reactions button {
+    margin-top: 7px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    padding: 4px;
+
+    font-size: small;
+    font-weight: bold;
+    color: #fff;
+    background-color: #494c54;
+
+    border-color: #494c54;
+    border-radius: 8px;
+    border-style: solid;
+    cursor: pointer;
+    outline: inherit;
+}
+
 .chatBox {
     position: absolute;
     bottom: 0;
@@ -267,6 +286,10 @@ body {
 
 .threadTitle {
     text-align: center;
+}
+
+.threadTitle h4 {
+    margin-top: 0;
 }
 
 .navGuildItems {
