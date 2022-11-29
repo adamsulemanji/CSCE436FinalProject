@@ -156,6 +156,56 @@ body {
     width: 100%;
 }
 
+.chatMessages {
+    padding: 25px;
+    display: block;
+}
+
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+}
+
+.message .server {
+    margin: 0;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+.content p {
+    margin: 0;
+}
+
+.nameDate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name p {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.date p {
+    font-size: small;
+}
+
+.view button {
+    margin-top: 10px;
+    font-size: small;
+    background: none;
+    color: var(--blurple);
+    border: none;
+    padding: 0;
+    margin-left: 0;
+    cursor: pointer;
+    outline: inherit;
+}
+
 .chatBox {
     position: absolute;
     bottom: 0;
