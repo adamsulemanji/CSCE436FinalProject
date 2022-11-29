@@ -91,7 +91,7 @@ var html1 = `<div class="message" id="message1"> <div class="server">
 <div class="content">
     <div class="nameDate">
         <div class="name">
-            <p>Tristan Nigos</p>
+            <p>Sona Shah</p>
         </div>
         <div class="date">
             <p>Today at 5:04pm</p>
@@ -113,7 +113,7 @@ var html1 = `<div class="message" id="message1"> <div class="server">
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/3.png"
     />
 </div>
 <div class="content">
@@ -122,7 +122,7 @@ var html1 = `<div class="message" id="message1"> <div class="server">
             <p>Tristan Nigos</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:09pm</p>
         </div>
     </div>
     <div class="text">
@@ -144,7 +144,7 @@ var html2 = `
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/3.png"
     />
 </div>
 <div class="content">
@@ -153,7 +153,7 @@ var html2 = `
             <p>Tristan Nigos</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:15pm</p>
         </div>
     </div>
     <div class="text">
@@ -171,16 +171,16 @@ var html2 = `
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/4.png"
     />
 </div>
 <div class="content">
     <div class="nameDate">
         <div class="name">
-            <p>Tristan Nigos</p>
+            <p>Adam Sulemanji</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:21pm</p>
         </div>
     </div>
     <div class="text">
@@ -200,16 +200,16 @@ var html3 = `
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/4.png"
     />
 </div>
 <div class="content">
     <div class="nameDate">
         <div class="name">
-            <p>Tristan Nigos</p>
+            <p>Adam Sulemanji</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:23pm</p>
         </div>
     </div>
     <div class="text">
@@ -233,10 +233,10 @@ var html3 = `
 <div class="content">
     <div class="nameDate">
         <div class="name">
-            <p>Tristan Nigos</p>
+            <p>Sona Shah</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:35pm</p>
         </div>
     </div>
     <div class="text">
@@ -257,7 +257,7 @@ var html4 = `
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/3.png"
     />
 </div>
 <div class="content">
@@ -266,7 +266,7 @@ var html4 = `
             <p>Tristan Nigos</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 5:51pm</p>
         </div>
     </div>
     <div class="text">
@@ -284,16 +284,16 @@ var html4 = `
 <div class="server">
     <img
         class="servericon"
-        src="https://cdn.discordapp.com/embed/avatars/2.png"
+        src="https://cdn.discordapp.com/embed/avatars/4.png"
     />
 </div>
 <div class="content">
     <div class="nameDate">
         <div class="name">
-            <p>Tristan Nigos</p>
+            <p>Adam Sulemanji</p>
         </div>
         <div class="date">
-            <p>Today at 5:04pm</p>
+            <p>Today at 6:05pm</p>
         </div>
     </div>
     <div class="text">
