@@ -127,8 +127,7 @@ body {
 }
 
 .side-bar {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column: 3 / span 1;
     grid-row-start: 1;
     grid-row-end: 1;
     position: relative;
@@ -142,15 +141,23 @@ body {
 }
 
 .container {
-    grid-column-start: 4;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 1;
+    grid-column: 4 / span 3;
     position: relative;
     float:right;
     width: 80%;
     height: 100vh;
     background-color: #37393F;
+}
+
+
+.chatBox {
+    position: absolute;
+    bottom: 0px;
+    width: 700px;
+    height: 44px;
+    left: 45px;
+    display: flex;
+    background: #40444B;
 }
 
 
@@ -246,16 +253,4 @@ body {
 
 .icon-strikethrough {
     fill: var(--red);
-}
-
-.chatBox {
-    position: absolute;
-    bottom: 0;
-    width: 917px;
-    height: 44px;
-    left: 45px;
-    top: 0px;
-    margin-bottom: 0;
-    display: flex;
-    background: #40444B;
 }
